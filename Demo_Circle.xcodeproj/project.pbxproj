@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		777DB2C31B54B1230068D22E /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 777DB2C21B54B1230068D22E /* CircleLayout.m */; };
 		7782A5321B54A76F00F5FAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782A5311B54A76F00F5FAC7 /* main.m */; };
 		7782A5351B54A76F00F5FAC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782A5341B54A76F00F5FAC7 /* AppDelegate.m */; };
-		7782A5381B54A76F00F5FAC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782A5371B54A76F00F5FAC7 /* ViewController.m */; };
 		7782A53B1B54A76F00F5FAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782A5391B54A76F00F5FAC7 /* Main.storyboard */; };
 		7782A53D1B54A76F00F5FAC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7782A53C1B54A76F00F5FAC7 /* Images.xcassets */; };
 		7782A5401B54A76F00F5FAC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7782A53E1B54A76F00F5FAC7 /* LaunchScreen.xib */; };
 		7782A54C1B54A76F00F5FAC7 /* Demo_CircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782A54B1B54A76F00F5FAC7 /* Demo_CircleTests.m */; };
+		7782A5571B54A79700F5FAC7 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782A5561B54A79700F5FAC7 /* MainController.m */; };
+		77CBC8451B54B4390085D6D0 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBC8441B54B4390085D6D0 /* CollectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		777DB2C11B54B1230068D22E /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		777DB2C21B54B1230068D22E /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
 		7782A52C1B54A76F00F5FAC7 /* Demo_Circle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Circle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782A5301B54A76F00F5FAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7782A5311B54A76F00F5FAC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7782A5331B54A76F00F5FAC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7782A5341B54A76F00F5FAC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7782A5361B54A76F00F5FAC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7782A5371B54A76F00F5FAC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7782A53A1B54A76F00F5FAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7782A53C1B54A76F00F5FAC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7782A53F1B54A76F00F5FAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7782A5451B54A76F00F5FAC7 /* Demo_CircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_CircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782A54A1B54A76F00F5FAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7782A54B1B54A76F00F5FAC7 /* Demo_CircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_CircleTests.m; sourceTree = "<group>"; };
+		7782A5551B54A79700F5FAC7 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		7782A5561B54A79700F5FAC7 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		77CBC8431B54B4390085D6D0 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		77CBC8441B54B4390085D6D0 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,13 @@
 			children = (
 				7782A5331B54A76F00F5FAC7 /* AppDelegate.h */,
 				7782A5341B54A76F00F5FAC7 /* AppDelegate.m */,
-				7782A5361B54A76F00F5FAC7 /* ViewController.h */,
-				7782A5371B54A76F00F5FAC7 /* ViewController.m */,
+				777DB2C11B54B1230068D22E /* CircleLayout.h */,
+				777DB2C21B54B1230068D22E /* CircleLayout.m */,
 				7782A5391B54A76F00F5FAC7 /* Main.storyboard */,
+				7782A5551B54A79700F5FAC7 /* MainController.h */,
+				7782A5561B54A79700F5FAC7 /* MainController.m */,
+				77CBC8431B54B4390085D6D0 /* CollectionCell.h */,
+				77CBC8441B54B4390085D6D0 /* CollectionCell.m */,
 				7782A53C1B54A76F00F5FAC7 /* Images.xcassets */,
 				7782A53E1B54A76F00F5FAC7 /* LaunchScreen.xib */,
 				7782A52F1B54A76F00F5FAC7 /* Supporting Files */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7782A5381B54A76F00F5FAC7 /* ViewController.m in Sources */,
 				7782A5351B54A76F00F5FAC7 /* AppDelegate.m in Sources */,
+				77CBC8451B54B4390085D6D0 /* CollectionCell.m in Sources */,
+				777DB2C31B54B1230068D22E /* CircleLayout.m in Sources */,
+				7782A5571B54A79700F5FAC7 /* MainController.m in Sources */,
 				7782A5321B54A76F00F5FAC7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				7782A5511B54A76F00F5FAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7782A5521B54A76F00F5FAC7 /* Build configuration list for PBXNativeTarget "Demo_CircleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				7782A5541B54A76F00F5FAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

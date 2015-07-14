@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MainController.h"
+#import "CircleLayout.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.viewController = [[MainController alloc] initWithCollectionViewLayout:[[CircleLayout alloc] init]];
+    
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
+    return YES;    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionCell.h
 //  Demo_Circle
 //
 //  Created by SY on 15/7/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CollectionCell : UICollectionViewCell
 
+@property (strong, nonatomic) UIImageView* imageView;
 
 @end
-
